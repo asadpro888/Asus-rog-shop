@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+span,a{
+    display: inline-block;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+body{
+    background-image: url(images\ \(2\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    height: 630px;
+    width: 100%;
+}
+.formed{
+    background-color: rgba(38, 0, 252, 0.37);
+    backdrop-filter: blur(40px);
+    margin-left: 350px;
+    width: 500px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: end;    
+    height: 350px;
+    max-width: 600px;
+    padding: 10px 10px 20px 10px;
+    transition: 0.5s all linear;
+    transform: translateY(150px);
+    margin: auto;
+}
+.formed:hover{
+    box-shadow: 7px 7px 4px 4px rgb(255, 0, 0);
+}
+.inp1{
+    margin-top: 20px;
+    text-align: center;
+    width: 400px;
+    margin-left: 49px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    text-align: left;
+    height: 40px;
+    color: red;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 30px;
+    outline: none;
+}
+.inp2{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: red;
+    width: 400px;
+    margin-left: 49px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    text-align: left;
+    height: 40px;
+    font-size: 30px;
+    font-family: cursive;
+    outline: none;
+}
+.inp3{
+    margin-top: 10px;
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+    color: red;
+    margin-left: 49px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    text-align: left;
+    height: 40px;
+    font-size: 30px;
+    font-family: cursive;
+    outline: none;
+}
+.inp4{
+    margin-top: 10px;
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+    color: red;
+    margin-left: 49px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    text-align: left;
+    height: 40px;
+    font-size: 30px;
+    font-family: cursive;
+    outline: none;
+}
+.bttn{
+    margin-top: 40px;
+    margin-left: 49px;
+    width: 400px;
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.a1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: red;
+}
+.border{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.inp1::placeholder{
+    color: red;
+    text-align: center;  
+}
+.inp2::placeholder{
+    color: red;
+    text-align: center; 
+}
+.inp3::placeholder{
+    color: red;
+    text-align: center; 
+}
+.inp4::placeholder{
+    color: red;
+    text-align: center; 
+}

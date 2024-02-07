@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+span,a{
+    display: inline-block;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.main{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    overflow: hidden;
+    top: 0;
+}
+.wrap{
+    margin-left: 170px;
+}
+body{
+    overflow: auto;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+.img{
+   
+    transform:  translateY(-200px) scale(1.3);
+    animation: anime 0.9s linear infinite;
+}
+.a{
+    transform: translateY(-50% );
+    color: aliceblue;
+    text-decoration: none;  
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    transition: 0.4s all linear; 
+}
+.a:hover{
+    background-color: white;
+    color: red;
+}
+@keyframes anime{
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.second{
+   text-align: center;
+}
+.headline{
+    color: red;
+    font-family: cursive;
+}
+.division{
+    background-color: red;
+    position: fixed;
+    padding: 20px;
+    height: 100%;
+}
+.list{
+    list-style: none;
+    color: black;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-weight: 100;
+    transition: 0.4s all linear;
+}
+.link2{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-weight: 100;
+    transition: 0.4s all linear;
+}
+.link3{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-weight: 100;
+    transition: 0.4s all linear;
+}
+.link4{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-weight: 100;
+    transition: 0.4s all linear;
+}
+.link5{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-weight: 100;
+    transition: 0.4s all linear;
+}
+.link6{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-weight: 100;
+    transition: 0.4s all linear;
+}
+.link1{
+    border: 2px dashed black;
+    color: red;
+    background-color: aliceblue;
+}
+.frame{
+    border-radius: 14px;
+}
